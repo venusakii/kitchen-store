@@ -8,6 +8,7 @@ import Link from "next/link"
 const products = [
   {
     id: 1,
+    slug: "professional-chef-knife-set",
     name: "Professional Chef Knife Set",
     category: "Cutlery",
     price: "$129.99",
@@ -18,6 +19,7 @@ const products = [
   },
   {
     id: 2,
+    slug: "cast-iron-skillet-collection",
     name: "Cast Iron Skillet Collection",
     category: "Cookware",
     price: "$89.99",
@@ -28,6 +30,7 @@ const products = [
   },
   {
     id: 3,
+    slug: "stainless-steel-mixing-bowls",
     name: "Stainless Steel Mixing Bowls",
     category: "Kitchen Tools",
     price: "$45.99",
@@ -38,6 +41,7 @@ const products = [
   },
   {
     id: 4,
+    slug: "non-stick-baking-sheet-set",
     name: "Non-Stick Baking Sheet Set",
     category: "Bakeware",
     price: "$34.99",
@@ -48,6 +52,7 @@ const products = [
   },
   {
     id: 5,
+    slug: "wooden-cutting-board-set",
     name: "Wooden Cutting Board Set",
     category: "Kitchen Tools",
     price: "$56.99",
@@ -58,6 +63,7 @@ const products = [
   },
   {
     id: 6,
+    slug: "silicone-spatula-collection",
     name: "Silicone Spatula Collection",
     category: "Kitchen Tools",
     price: "$24.99",
@@ -68,6 +74,7 @@ const products = [
   },
   {
     id: 7,
+    slug: "stainless-steel-cookware-set",
     name: "Stainless Steel Cookware Set",
     category: "Cookware",
     price: "$199.99",
@@ -78,6 +85,7 @@ const products = [
   },
   {
     id: 8,
+    slug: "digital-kitchen-scale",
     name: "Digital Kitchen Scale",
     category: "Kitchen Tools",
     price: "$29.99",
@@ -88,6 +96,7 @@ const products = [
   },
   {
     id: 9,
+    slug: "ceramic-bakeware-set",
     name: "Ceramic Bakeware Set",
     category: "Bakeware",
     price: "$67.99",
@@ -121,7 +130,7 @@ export default function ReviewsPage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {products.map((product) => (
-                <Link key={product.id} href={`/reviews/${product.id}`}>
+                <Link key={product.id} href={`/reviews/${product.slug}`}>
                   <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-border h-full">
                     <CardContent className="p-0">
                       <div className="aspect-square relative overflow-hidden bg-muted">
