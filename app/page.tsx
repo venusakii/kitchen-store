@@ -115,7 +115,7 @@ export default function HomePage() {
                   amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE3",
                 },
               ].map((product) => (
-                <a key={product.name} href={product.amazonUrl} target="_blank" rel="noopener noreferrer nofollow">
+                <Link key={product.name} href={`/reviews/${product.slug}`}>
                   <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-border">
                     <CardContent className="p-0">
                       <div className="aspect-square relative overflow-hidden bg-muted">
@@ -149,13 +149,13 @@ export default function HomePage() {
                         </div>
                         <div className="flex items-center justify-end">
                           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                            View on Amazon
+                            Read Review
                           </Button>
                         </div>
                       </div>
                     </CardContent>
                   </Card>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -223,27 +223,27 @@ export default function HomePage() {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {[
-                "Non-stick Pan",
-                "Knife Sharpener",
-                "Measuring Cups",
-                "Cutting Board",
-                "Spatula Set",
-                "Mixing Spoons",
+                { name: "Non-stick Pan", image: "/non-stick-frying-pan.jpg" },
+                { name: "Knife Sharpener", image: "/knife-sharpener-tool.jpg" },
+                { name: "Measuring Cups", image: "/measuring-cups-set.jpg" },
+                { name: "Cutting Board", image: "/wooden-cutting-board.png" },
+                { name: "Spatula Set", image: "/kitchen-spatula-set.jpg" },
+                { name: "Mixing Spoons", image: "/wooden-mixing-spoons.jpg" },
               ].map((item, index) => (
-                <Link key={item} href="/reviews">
+                <Link key={item.name} href="/reviews">
                   <Card className="group hover:shadow-lg transition-all duration-300 border-border">
                     <CardContent className="p-4">
                       <div className="aspect-square relative overflow-hidden bg-muted rounded-md mb-3">
                         <img
-                          src={`/.jpg?key=tigsl&height=200&width=200&query=${encodeURIComponent(item)}`}
-                          alt={item}
+                          src={item.image || "/placeholder.svg"}
+                          alt={item.name}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />
                         <div className="absolute top-2 left-2 bg-primary text-primary-foreground w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold">
                           {index + 1}
                         </div>
                       </div>
-                      <h3 className="font-medium text-sm text-foreground text-center">{item}</h3>
+                      <h3 className="font-medium text-sm text-foreground text-center">{item.name}</h3>
                     </CardContent>
                   </Card>
                 </Link>

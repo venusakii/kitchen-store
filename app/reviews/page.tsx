@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Star } from "lucide-react"
+import Link from "next/link"
 
 const products = [
   {
@@ -138,7 +139,7 @@ export default function ReviewsPage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {products.map((product) => (
-                <a key={product.id} href={product.amazonUrl} target="_blank" rel="noopener noreferrer nofollow">
+                <Link key={product.id} href={`/reviews/${product.slug}`}>
                   <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-border h-full">
                     <CardContent className="p-0">
                       <div className="aspect-square relative overflow-hidden bg-muted">
@@ -173,13 +174,13 @@ export default function ReviewsPage() {
                         </div>
                         <div className="flex items-center justify-end">
                           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                            View on Amazon
+                            Read Review
                           </Button>
                         </div>
                       </div>
                     </CardContent>
                   </Card>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
