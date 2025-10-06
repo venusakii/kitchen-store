@@ -89,27 +89,33 @@ export default function HomePage() {
               {[
                 {
                   name: "Professional Chef Knife Set",
+                  slug: "hunter-dishwasher-safe-knife-set",
                   price: "$129.99",
                   rating: 4.9,
                   reviews: 1247,
                   image: "/professional-chef-knife-set.jpg",
+                  amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE1",
                 },
                 {
                   name: "Cast Iron Skillet Collection",
+                  slug: "cast-iron-skillet-with-lid",
                   price: "$89.99",
                   rating: 4.8,
                   reviews: 892,
                   image: "/cast-iron-skillet-cookware.jpg",
+                  amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE2",
                 },
                 {
                   name: "Stainless Steel Mixing Bowls",
+                  slug: "prioritychef-stainless-steel-mixing-bowls",
                   price: "$45.99",
                   rating: 4.7,
                   reviews: 654,
                   image: "/stainless-steel-mixing-bowls.jpg",
+                  amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE3",
                 },
               ].map((product) => (
-                <Link key={product.name} href="/reviews/1">
+                <a key={product.name} href={product.amazonUrl} target="_blank" rel="noopener noreferrer nofollow">
                   <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-border">
                     <CardContent className="p-0">
                       <div className="aspect-square relative overflow-hidden bg-muted">
@@ -143,13 +149,13 @@ export default function HomePage() {
                         </div>
                         <div className="flex items-center justify-end">
                           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                            View Details
+                            View on Amazon
                           </Button>
                         </div>
                       </div>
                     </CardContent>
                   </Card>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
@@ -229,7 +235,7 @@ export default function HomePage() {
                     <CardContent className="p-4">
                       <div className="aspect-square relative overflow-hidden bg-muted rounded-md mb-3">
                         <img
-                          src={`/.jpg?key=i5cv8&height=200&width=200&query=${encodeURIComponent(item)}`}
+                          src={`/.jpg?key=tigsl&height=200&width=200&query=${encodeURIComponent(item)}`}
                           alt={item}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />

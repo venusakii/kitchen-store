@@ -3,7 +3,6 @@ import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Star } from "lucide-react"
-import Link from "next/link"
 
 const products = [
   {
@@ -16,6 +15,7 @@ const products = [
     reviews: 1247,
     image: "https://m.media-amazon.com/images/I/717WH4PX1gL._AC_SX679_.jpg",
     description: "Premium stainless steel knives with ergonomic handles for kitchen sharpening",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE1",
   },
   {
     id: 2,
@@ -27,6 +27,7 @@ const products = [
     reviews: 892,
     image: "https://m.media-amazon.com/images/I/71wKZh5tYbL._AC_SX679_.jpg",
     description: "Pre-seasoned cast iron skillet with lid for perfect heat distribution",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE2",
   },
   {
     id: 3,
@@ -38,6 +39,7 @@ const products = [
     reviews: 654,
     image: "https://m.media-amazon.com/images/I/81Uptl8nNhL._AC_SX679_.jpg",
     description: "Nested set of 5 durable mixing bowls with silicone stackable design",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE3",
   },
   {
     id: 4,
@@ -49,6 +51,7 @@ const products = [
     reviews: 523,
     image: "https://m.media-amazon.com/images/I/61m7jdBAl7L._AC_SX679_.jpg",
     description: "Professional-grade rectangle baking sheet, non-toxic and dishwasher safe",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE4",
   },
   {
     id: 5,
@@ -60,6 +63,7 @@ const products = [
     reviews: 789,
     image: "https://m.media-amazon.com/images/I/8142dAEim3L._AC_SX679_.jpg",
     description: "Elegant bamboo charcuterie board set with 4 stainless steel knives",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE5",
   },
   {
     id: 6,
@@ -71,6 +75,7 @@ const products = [
     reviews: 412,
     image: "https://m.media-amazon.com/images/I/611ccAm4DQL._AC_SX679_.jpg",
     description: "Heat-resistant silicone spatulas with stainless steel core, non-stick",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE6",
   },
   {
     id: 7,
@@ -82,6 +87,7 @@ const products = [
     reviews: 1056,
     image: "https://m.media-amazon.com/images/I/61RA24+5tIL._AC_SX679_.jpg",
     description: "12-inch hybrid nonstick pan with tempered glass lid, dishwasher compatible",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE7",
   },
   {
     id: 8,
@@ -93,6 +99,7 @@ const products = [
     reviews: 634,
     image: "https://m.media-amazon.com/images/I/81Z52cyYB+L._AC_SX679_.jpg",
     description: "Precise digital kitchen scale with 11 lb capacity and multiple units",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE8",
   },
   {
     id: 9,
@@ -104,6 +111,7 @@ const products = [
     reviews: 445,
     image: "https://m.media-amazon.com/images/I/81VhG1-qO6L._AC_SX679_.jpg",
     description: "Induction-compatible ceramic cookware set with 10-piece capacity",
+    amazonUrl: "https://www.amazon.com/dp/B0EXAMPLE9",
   },
 ]
 
@@ -130,7 +138,7 @@ export default function ReviewsPage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {products.map((product) => (
-                <Link key={product.id} href={`/reviews/${product.slug}`}>
+                <a key={product.id} href={product.amazonUrl} target="_blank" rel="noopener noreferrer nofollow">
                   <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-border h-full">
                     <CardContent className="p-0">
                       <div className="aspect-square relative overflow-hidden bg-muted">
@@ -165,13 +173,13 @@ export default function ReviewsPage() {
                         </div>
                         <div className="flex items-center justify-end">
                           <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                            Read Review
+                            View on Amazon
                           </Button>
                         </div>
                       </div>
                     </CardContent>
                   </Card>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
