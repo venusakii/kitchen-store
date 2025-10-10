@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <ShoppingCart className="h-6 w-6 text-primary" />
-              <span className="font-serif text-xl font-bold text-foreground">KitchenStore</span>
+              <span className="font-serif text-xl font-bold text-foreground">bestfoodandwine.com</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Your trusted source for premium kitchen utensils and home goods reviews.
