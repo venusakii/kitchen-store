@@ -14,7 +14,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <ShoppingCart className="h-6 w-6 text-primary" />
-            <span className="font-serif text-2xl font-bold text-foreground">KitchenStore</span>
+            <span className="font-serif text-2xl font-bold text-foreground">bestfoodandwine</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
