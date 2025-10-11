@@ -405,7 +405,7 @@ export default function ProductReviewPage() {
 										/>
 									</div>
 									<div className="grid grid-cols-4 gap-4">
-										{[1, 2, 3, 4].map((i) => (
+										{/* {[1, 2, 3, 4].map((i) => (
 											<div
 												key={i}
 												className="aspect-square relative overflow-hidden bg-muted rounded-md cursor-pointer hover:opacity-75 transition-opacity"
@@ -416,7 +416,7 @@ export default function ProductReviewPage() {
 													className="w-full h-full object-cover"
 												/>
 											</div>
-										))}
+										))} */}
 									</div>
 								</div>
 
