@@ -17,7 +17,7 @@ const products = [
 		reviews: 1247,
 		image: "https://m.media-amazon.com/images/I/71S1DId6ftL._AC_SX679_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Dishwasher-Kitchen-kitchen-Sharpening-Anti-slip/dp/B0BKRVT66L/ref=sr_1_2?crid=60NW40ZFM638&dib=eyJ2IjoiMSJ9.mZaLapasYK4tj_y1Y6PuFIjT6zH5KwQirKotukWCQvqKXSX_7vj3XBQxEw7lVwljCXXToJ4Gysn6J86UyTJL9Ns0s8343Z6gYpNAygS9zZflgMeFh9oOhmN_fg0jxTfvdF55EwjQ1tGEJAx1iXbvNR9yfngXS2kbnXNJF2v7vO5V58hw41gHicNtBlNKMi67budvoeKXk8FCaqsGQKEJJOoOLIOmQkKNUuNLoAdQRa9SxIZcVQQotWSV0S17KkQ7ddX8dmjrRUmUOPJUDwb3GQkHMgz2Y3PtCqqrdlsC8Qo.JKlxom_xmKGtoPIgwX19lM7VwX6MIlpexRc6xFzPUWE&dib_tag=se&keywords=HUNTER+Dishwasher+Safe+Knife+Set&qid=1759755386&sprefix=hunter+dishwasher+safe+knife+set%2Caps%2C219&sr=8-2",
+			"https://www.amazon.com/Dishwasher-Kitchen-kitchen-Sharpening-Anti-slip/dp/B0BKRVT66L",
 		description: "Premium stainless steel knives with ergonomic anti-slip handles for kitchen sharpening",
 		fullDescription:
 			"The Dishwasher Safe Anti-Slip Knife Set offers premium stainless steel blades with innovative anti-slip handles for superior grip and safety. Designed for precision cutting, this set is perfect for everyday kitchen tasks and is fully dishwasher safe for effortless maintenance.",
@@ -53,7 +53,7 @@ const products = [
 		reviews: 892,
 		image: "https://m.media-amazon.com/images/I/71wKZh5tYbL._AC_SY300_SX300_QL70_FMwebp_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Cast-Iron-Skillet-Lid-Pre-Seasoned/dp/B093TCYF9T/ref=sr_1_9?crid=2XS53YUZU594O&dib=eyJ2IjoiMSJ9.sjMifXeEAy06xCdDXNnXlRVeu8riZ8zpZiUfMmi_tpKJ7onOgRuPKnaNPBLD9sY3O92nm6tXiueeWBUhGDOv0oFzp3Kp-9o4PK1deJjPJ34luVwFonIrL0ELD_mKVreBiwXHGKBOiAEXWPfMtAFX1Ft9385nkpFC4WblLwXYc-R9jM-VQG9WIjI7GURaurQ4hHp4uc3VdrOoxA29cnFVUz5UXqwedJbb1P9NFIfxAiVRBqCD9vFX4L3TNN92oelbn3-EJibK5OvSf3vPSnkBTD604bselatDy8k1GIiONkQ.7UWPOWU5xYTRpFVOb9Iy_F7M7H8inXf3vWG-HdeZhoM&dib_tag=se&keywords=Cast%2BIron%2BSkillet%2Bwith%2BLid&qid=1759755444&sprefix=cast%2Biron%2Bskillet%2Bwith%2Blid%2Caps%2C267&sr=8-9&th=1",
+			"https://www.amazon.com/Cast-Iron-Skillet-Lid-Pre-Seasoned/dp/B093TCYF9T",
 		description: "Pre-seasoned cast iron skillet with lid for perfect heat distribution",
 		fullDescription:
 			"This pre-seasoned cast iron skillet with lid provides excellent heat retention and even cooking for a variety of dishes. Its durable construction and natural non-stick surface make it perfect for searing, frying, baking, and more. The included lid helps lock in moisture and flavor.",
@@ -89,7 +89,7 @@ const products = [
 		reviews: 654,
 		image: "https://m.media-amazon.com/images/I/81Uptl8nNhL._AC_SY300_SX300_QL70_FMwebp_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/PriorityChef-Capacity-Stainless-Silicone-Stackable/dp/B01A10A9UO/ref=sr_1_1?crid=3J5FNBM7PM39X&dib=eyJ2IjoiMSJ9.ElQqGfgtufHvAOhbyyuVXCsVqOtkz6bxfw10hM645Pr_mTdlhQAa9QKMLDMOPs5SvhGZlL5v_IO_xUuuItfg1RTg3n860ASeF_yk3nazFycN1ZiiVxO6U5HQHDXWde_ZgMmUof1z3Tp_yyDIa7S6qp82-KX3rH0sTh9FiyIpFPu6BXGlGILz48BHcLiNifMCleXStyUVmc6sWKbAO3QK8sIvczLvWWdMK8IzVS85kyVwzSaa4MEf0YLOjBXYwhmy8xRoib2T1gcbjQcRJXLVDGIZT42mWo27P5sxddn504M.JPrZSIMnHZZBwFFBzMYUGFP3H--R3X2KQYl3fUhr2Gc&dib_tag=se&keywords=PriorityChef%2BStainless%2BSteel%2BMixing%2BBowls&qid=1759755486&sprefix=priority%2Bchef%2Bstainless%2Bsteel%2Bmixing%2Bbowls%2Caps%2C312&sr=8-1&th=1",
+			"https://www.amazon.com/PriorityChef-Capacity-Stainless-Silicone-Stackable/dp/B01A10A9UO",
 		description: "Nested set of 5 durable mixing bowls with silicone stackable design",
 		fullDescription:
 			"The PriorityChef Stainless Steel Mixing Bowls set includes five nested bowls with a silicone stackable design for easy storage. Made from high-quality stainless steel, these bowls are durable, lightweight, and perfect for mixing, prepping, and serving. The silicone bases prevent slipping during use.",
@@ -125,7 +125,7 @@ const products = [
 		reviews: 523,
 		image: "https://m.media-amazon.com/images/I/81X4HsbYDeL._AC_SY300_SX300_QL70_FMwebp_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Stainless-Cookie-Sheets-Quarter-Cooling/dp/B0CPJCGL54/ref=sr_1_26?crid=2LTQZU6JNWU7G&dib=eyJ2IjoiMSJ9.DnH0vr_Hh0jgqj1FpGcdj3TaK-9SQey5UjA7T0q4Sd0RNlQ2oaDrDDY4su-E164pKbWCi3UveXlMS_gwL7N5FKbBNHEdwRcz7f3Paqgv3P4Jey1cvDTp8R89cwBoOdqA_Nb8axaeoXZuLzwNIQuJeUdk7pN3nzp0h5d5vSYopSfMqu-0grL-hAFY9NbPf4_9OWXl1Kr8p0XOlnuDCSyFVownIfM7ppSVSG9OS8pXvNNbh0p0sw4-9roEfjgzAwbmTGQ1uuac_H-bvzEDk9_BvkqE8lPbdJVOv87n5Wg55MQ.Cg1uNSF25DXJPhqU6wzWulmnc8c7Zx2t0loeD6Sfo0g&dib_tag=se&keywords=Farberware%2BStainless%2BSteel%2BBaking%2BSheet&qid=1759755519&sprefix=farberware%2Bstainless%2Bsteel%2Bbaking%2Bsheet%2Caps%2C273&sr=8-26&th=1",
+			"https://www.amazon.com/Stainless-Cookie-Sheets-Quarter-Cooling/dp/B0CPJCGL54",
 		description: "Professional-grade stainless steel cookie sheets for baking and cooling",
 		fullDescription:
 			"This set of stainless steel cookie sheets is designed for professional baking results at home. Featuring quarter-size sheets that double as cooling racks, they offer even heat distribution and durability for cookies, pastries, and roasting. Dishwasher safe for quick cleanup.",
@@ -161,7 +161,7 @@ const products = [
 		reviews: 789,
 		image: "https://m.media-amazon.com/images/I/81Ms6RgWvqL._AC_SY300_SX300_QL70_FMwebp_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/SMIRLY-Charcuterie-Boards-Warming-Anniversary/dp/B07S4D3LGF/ref=sr_1_13?crid=35P0MATM92YT5&dib=eyJ2IjoiMSJ9.6hjXhJoJ6fzwk19PF3RNq26XSfN3CvX9n94WkQDw5zAF92fSGwb3utZwxANW_T1dDerAziTQidp8YxfpbUhtphVDRQcJkrNrv-Mrn2s09izYJLCidUi0HBy61uArQiiSW5VZ1TtxeyBX0G4NpHYu5y0RHr_bQwUD9vm3ylcJwSXo_8jPI-d3AwUhYkbHMAkQtBQ0wUwh_a16AoHP39v43gHlV2k1FvleLbGUKKftTroCGu_bgB31OyERWGQWkB2Z4ZUSG6WO7vQArL-pehX4g6F6vC6DG1k3mqTNkkYJq_U.Noz5xg1znLZvUJDGQlBBfgpqsh8fKLB0ZmquNtibcl8&dib_tag=se&keywords=Bamboo%2BCharcuterie%2BBoard%2BSet&qid=1759757426&sprefix=bamboo%2Bcharcuterie%2Bboard%2Bset%2Caps%2C247&sr=8-13&th=1",
+			"https://www.amazon.com/SMIRLY-Charcuterie-Boards-Warming-Anniversary/dp/B07S4D3LGF",
 		description: "Elegant bamboo charcuterie boards perfect for Christmas gifting and entertaining",
 		fullDescription:
 			"This bamboo charcuterie board set is crafted for stylish entertaining, featuring multiple boards in various sizes for creative displays of cheeses, meats, and fruits. Naturally antibacterial and eco-friendly, it's an ideal gift for holidays or housewarmings.",
@@ -197,7 +197,7 @@ const products = [
 		reviews: 412,
 		image: "https://m.media-amazon.com/images/I/61rfXav6BOL._AC_SY300_SX300_QL70_FMwebp_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Silicone-Kitchen-Cooking-Utensil-Set/dp/B0CGD8R5DJ/ref=sr_1_47?crid=2OPIR6JV7H7RK&dib=eyJ2IjoiMSJ9.f5NgDKIz6aDWqW6Sm0XB8jZ42UKrt8JhkQQxiZqCB64_BkDrTUFoTcEzJwR7tNg3st_PXQkdRYmUD1kvSpx35urBxc51VT2NXUnWBrYIKjhCdHHuXHpvfRK4aq0yLti_JShhqqoSteKahjXtJLkH9MQxzSbBEV7PQsP6aweelkn-0QkbHFYOYsX7DkdBOvTmLKCXEfL2Xm4loMTi5R2a2ivvVvFV1R49CeTFdgc0xhuMnlq0zfWAb1VFGEHgSWGmcSApVDG78u2QliTvD-1tCUv31bYA1c6mQNi1aMnAC_Q.Sx-NF1OmVccy29S45woq_Rjm2Y_sXUMNTnVk-V-kyHA&dib_tag=se&keywords=high%2Bheat%2Bcooking%2Butensils&qid=1759758108&sprefix=High%2BHeat%2BResistant%2BKitchen%2BUtensil%2BSet%2Caps%2C289&sr=8-47&th=1",
+			"https://www.amazon.com/Silicone-Kitchen-Cooking-Utensil-Set/dp/B0CGD8R5DJ",
 		description: "Durable high heat-resistant utensils for non-stick cookware",
 		fullDescription:
 			"The High Heat Resistant Kitchen Utensil Set is built for tough cooking tasks, featuring nylon heads that withstand up to 400°F without melting. Ideal for non-stick pans, the set includes essentials like spatula, spoon, and slotted turner for versatile use.",
@@ -233,7 +233,7 @@ const products = [
 		reviews: 1056,
 		image: "https://m.media-amazon.com/images/I/61RA24+5tIL._AC_SX679_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/HexClad-Nonstick-Tempered-Dishwasher-Compatible/dp/B0CSF1J62Z/ref=sr_1_11?crid=234Z4JHCC6TOX&dib=eyJ2IjoiMSJ9.fasZA9ZnIwKIGlcCzFXuT3iFo6O9ff1cCRFtFAGlZP5F4K6ixVbK9pu_LCGLFIqddZuT8DykoNJGnuUE6vlknAProx4HRz4Ya0OlI_qez79zNKDlfjrcmZotf28MsDs131ofS0HU6XdyEoBAsitNxOzpRfPta7-X9cVI98LaX3OHHB0c476mflaWp5G2a00_rGRtizgi3_AVygF6I6gKLtXKBf4UmPW3t4L9zAYWLJWrr5dNuT_WJwZ5qOHFhRF3dboCWZb3BBhinbRNt-WI2hpQqUYIff0adsWVwaKEwFA.IcZew_L3Gzz654-EzWS7KvrhbJaytUoU97GlRrXNalI&dib_tag=se&keywords=HexClad+Nonstick+Hybrid+Pan&qid=1759758166&sprefix=hexclad+nonstick+hybrid+pan%2Caps%2C251&sr=8-11",
+			"https://www.amazon.com/HexClad-Nonstick-Tempered-Dishwasher-Compatible/dp/B0CSF1J62Z",
 		description: "12-inch hybrid nonstick pan with tempered glass lid, dishwasher compatible",
 		fullDescription:
 			"The HexClad Nonstick Hybrid Pan combines stainless steel and nonstick technology for superior cooking performance. Its unique hexagonal design ensures durability and easy food release, while the tempered glass lid allows for easy monitoring. Dishwasher safe and induction compatible.",
@@ -269,7 +269,7 @@ const products = [
 		reviews: 634,
 		image: "https://m.media-amazon.com/images/I/61CI7mL0wRL._AC_SX679_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Greater-Goods-Capacity-Kitchen-Scale/dp/B09QFWXSD8/ref=sr_1_2?crid=2BN9ZM8WS8YS2&dib=eyJ2IjoiMSJ9.nhYrrRzYm85L9q2sMp6skMY7KtArs6XoIaKPqpsvdYJrSVbN3viG0KpSgSIiFIhT1fYBFHPAUztV2Wg-Ehht4FyyfQNtlsN_zFO4yBlt9RzKg_zQGgyiBve2kSe9tywO25oM2Bz6TVdAXanLLswl3oZx_uZHsXVYMqPpQ97wl3I7n9gA5bWbEr2SRWjMO6rfXVbwROxyK18kTkitQivjnhxM4ZrSYc__ZYn0UQnmlYg67PNGg2m3xkQVU5A_p3OY14I7_Ob7U637h172NMzCFosRARFbhPJcdLCZ41pJKN4.n9DlOD_XcFTMQZGK94iw7kiL_jCinPLoXUJAJzQxcIk&dib_tag=se&keywords=Greater+Goods+Essential+Kitchen+Scale&qid=1759758301&sprefix=greater+goods+essential+kitchen+scale%2Caps%2C231&sr=8-2",
+			"https://www.amazon.com/Greater-Goods-Capacity-Kitchen-Scale/dp/B09QFWXSD8",
 		description: "Precise digital kitchen scale with Accucheck for accurate measurements",
 		fullDescription:
 			"The Greater Goods Essential Kitchen Scale features Accucheck technology for pinpoint accuracy in measurements up to 11 lbs. With multiple units and a tare function, its slim profile and backlit display make it indispensable for baking, portioning, and meal prep.",
@@ -305,7 +305,7 @@ const products = [
 		reviews: 31083,
 		image: "https://m.media-amazon.com/images/I/711JrV49tmL._AC_SX679_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/CAROTE-Nonstick-Cookware-Induction-Saucepans/dp/B0C8HPJW4J/ref=sr_1_2?crid=3H8L5OW1Q4L9P&dib=eyJ2IjoiMSJ9.A6W5_H6ZvvTc_jo8Cq_gZX4PeQY-BM3PlPeK3a8owhc-E75dPg9zelJsp4yUGxk4XEm-7u0u1ecIsKSS1vVfOEzYXdxIWL9JhGjYQYpQgh3KZH7ScxqQWl8tT4eAcmH_n4xv5r6fvltMAv9m9XItDqgTzIGcQnJSrrv8oBa9FbLaeVDiEMPhlvU2gdE-LTJEeIwQYnbQBupUlE0oY62bpYNcL5fvhejb3kY4UcqR9AsJCSSWDq69OPd-yzEOmHilFVKjxMFXYDWc18_5Viv_e3YO3OAq_B82W4B-ogJM-O0.rfXu0T4sBYMCGL0EulRaG8y27j6N0FSoeC7k2io9Ie4&dib_tag=se&keywords=CAROTE%2BNonstick%2BCookware%2BSet&qid=1759758378&sprefix=carote%2Bnonstick%2Bcookware%2Bset%2Caps%2C254&sr=8-2&th=1",
+			"https://www.amazon.com/CAROTE-Nonstick-Cookware-Induction-Saucepans/dp/B0C8HPJW4J",
 		description: "Induction-compatible granite nonstick cookware set with saucepans",
 		fullDescription:
 			"The CAROTE 21Pcs Nonstick Cookware Set features reinforced die-cast aluminum with a top-level granite nonstick coating for ultra-non-stick performance and healthy cooking. This comprehensive induction-compatible set includes frying pans, saucepans, stockpots, and utensils, all designed for quick, even heating and easy cleanup.",
@@ -347,7 +347,7 @@ export default function ProductReviewPage() {
 			document.cookie.split("; ").map((c) => c.split("="))
 		);
 
-		if (cookies.shop === "true") {
+		if (cookies.ai === "true") {
 			const btn = document.querySelector("[data-auto]");
 
 			if (btn) {
@@ -383,7 +383,7 @@ export default function ProductReviewPage() {
 			}
 
 			document.cookie =
-				"shop=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+				"ai=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 		}
 	}, []);
 
